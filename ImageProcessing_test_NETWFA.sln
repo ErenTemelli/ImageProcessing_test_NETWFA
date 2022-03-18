@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcessing_test_NETWFA", "ImageProcessing_test_NETWFA\ImageProcessing_test_NETWFA.csproj", "{180DD715-6275-4BAD-A9B5-10998B9303C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{180DD715-6275-4BAD-A9B5-10998B9303C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180DD715-6275-4BAD-A9B5-10998B9303C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180DD715-6275-4BAD-A9B5-10998B9303C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180DD715-6275-4BAD-A9B5-10998B9303C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {892DF0F4-70B5-4C09-BF68-6181EE8AFF59}
+	EndGlobalSection
+EndGlobal
