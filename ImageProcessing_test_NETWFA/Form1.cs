@@ -61,11 +61,10 @@ namespace ImageProcessing_test_NETWFA
             progressBar1.Maximum = img1.Width;
             if (img1.Width == img2.Width && img1.Height == img2.Height)
             {
-                for (int z = 1; z<6; z++)
+
+                for (int i = 0; i < img1.Width; i++)
                 {
-                for (int i = 0; i < img1.Width/6-z; i++)
-                {
-                    for (int j = 0; j < img1.Height; j++)
+                    for (int j = img1.Height/9; j < img1.Height/7; j++)
                     {
                         img1_ref = img1.GetPixel(i, j).ToString();
                         img2_ref = img2.GetPixel(i, j).ToString();
@@ -78,16 +77,16 @@ namespace ImageProcessing_test_NETWFA
                     }
                     progressBar1.Value++;
                       
-                    }
-                    total = count1 + count2;
-                    performans = 100 * count1 / total;
-                    MessageBox.Show("Karşılaştırılan 2 fotoğrafın ilk yüzde % " + z * 20 + " kısımında \n" + count1 + " adet aynı pixel ve " + count2 + " adet farklı pixel bulundu \n 2 fotoğraftaki benzerlik oranı: %" + performans);
+                    
+                   
                 }
 
+                total = count1 + count2;
+                performans = 100 * count1 / total;
+                MessageBox.Show("Karşılaştırılan 2 fotoğrafın ilk yüzde %100   kısımında \n" + count1 + " adet aynı pixel ve " + count2 + " adet farklı pixel bulundu \n 2 fotoğraftaki benzerlik oranı: %" + performans);
             }
             else
                 MessageBox.Show("fotoğraflar karşılaştırılamaz");
-            this.Dispose();
         }
     }
 
